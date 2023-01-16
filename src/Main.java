@@ -12,5 +12,8 @@ public class Main {
         System.out.println("warAndPeace.getAge() = " + warAndPeace.getAge());
         System.out.println(warAndPeace.getAuthor());
         System.out.println("warAndPeace.getTitle() = " + warAndPeace.getTitle());
+        System.out.println(new Book ("Война и Мир", "Лев Толстой", 1869));
+        System.out.println(new Author("Лев", "Толстой"));
+        System.out.println(warAndPeace.equals(fathersAndChildren));
     }
 }
